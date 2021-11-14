@@ -21,19 +21,42 @@
     <div class="container my-5 d-flex flex-column gap-4">
       <header class="text-center">
         <h1>Derin Aşır</h1>
-        <h2 class="fs-3 lead">Fullstack Developer</h2>
+        <h2 class="fs-2 fs-md-3 lead">Fullstack Developer</h2>
       </header>
-      <div class="mx-5 px-5 py-4 border rounded d-flex flex-column gap-4">
+      <div
+        class="
+          mx-3
+          px-3
+          py-2
+          mx-md-5
+          px-md-5
+          py-md-4
+          border
+          rounded
+          d-flex
+          flex-column
+          gap-4
+        "
+      >
         <section>
           <h3>About Me</h3>
-          <p class="fs-5 lead">
+          <p class="fs-6 fs-md-5 lead">
             I am a fullstack TypeScript and Node.js developer<br />
             I always look forward to learn new things
           </p>
         </section>
         <section>
           <h3>My Skills</h3>
-          <ul class="list-group-flush my-4">
+          <ul
+            class="
+              list-group-flush
+              p-0
+              my-4
+              d-flex
+              flex-column
+              align-items-md-left
+            "
+          >
             <li class="list-group-item">JavaScript</li>
             <li class="list-group-item">TypeScript</li>
             <li class="list-group-item">Python</li>
@@ -48,7 +71,17 @@
         </section>
         <section id="projects">
           <h3>My Projects</h3>
-          <div class="d-flex justify-content-evenly">
+          <div
+            class="
+              d-flex
+              flex-column
+              text-center
+              align-items-center
+              text-md-left
+              flex-md-row
+              justify-content-md-evenly
+            "
+          >
             <div v-for="project in projects">
               <div class="my-3">
                 <h5 class="lead">{{project.name}}</h5>
